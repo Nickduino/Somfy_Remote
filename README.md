@@ -14,5 +14,4 @@ Connect a *433.42 Mhz* RF transmitter to Arduino Pin 5 (or change the pin in the
 What you really want to keep here are the BuildFrame() and SendCommand() procedures. Input the *remote address* and the *rolling code* value and you have a remote. With the sketch, you can send the command through serial line but that would be easily modified to button press or whatever (I plan on running it on an internet-connected ESP8266 to shut the blinds at sunset every day).
 
 
-**What will be added:**
-EEPROM write of the current rolling code. Currently, you loose count as soon as you power off the Arduino. I'm just starting to learn about EEPROM
+The rolling code value is stored in the EEPROM, so that you don't loose count of your rolling code after a reset.
