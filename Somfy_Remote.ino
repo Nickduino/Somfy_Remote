@@ -1,5 +1,5 @@
-/*   This sketch allows you to simulate a Somfy RTS or Simu HZ remote.
-   I made an Arduino sketch of the protocol decoded by pushstack: https://pushstack.wordpress.com/somfy-rts-protocol/
+/*   This sketch allows you to emulate a Somfy RTS or Simu HZ remote.
+   If you want to learn more about the Somfy RTS protocol, check out https://pushstack.wordpress.com/somfy-rts-protocol/
    
    The rolling code will be stored in EEPROM, so that you can power the Arduino off.
    
