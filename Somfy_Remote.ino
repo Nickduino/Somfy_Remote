@@ -35,7 +35,7 @@ unsigned int rollingCode = 0;
 byte frame[7];
 byte checksum;
 
-void BuildFrame(byte *frame, byte adresse, byte button);
+void BuildFrame(byte *frame, byte button);
 void SendCommand(byte *frame, byte sync);
 
 
