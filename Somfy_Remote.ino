@@ -28,7 +28,7 @@
 #define PROG 0x8
 #define EEPROM_ADDRESS 0
 
-#define REMOTE 0x698140    //<-- Change it!
+#define REMOTE 0x121300    //<-- Change it!
 
 unsigned int newRollingCode = 101;       //<-- Change it!
 unsigned int rollingCode = 0;
@@ -133,6 +133,9 @@ void BuildFrame(byte *frame, byte button) {
 
   Serial.println(""); Serial.print("Obfuscated    : ");
   for(byte i = 0; i < 7; i++) {
+    if(frame[i] >> 4 == 0) {
+      Serial.print("0");
+    }
     Serial.print(frame[i],HEX); Serial.print(" ");
   }
   Serial.println("");
