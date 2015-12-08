@@ -170,7 +170,7 @@ void SendCommand(byte *frame, byte sync) {
   
   
 //Data: bits are sent one by one, starting with the MSB.
-  for(byte i = 0; i < 57; i++) {
+  for(byte i = 0; i < 56; i++) {
     if(((frame[i/8] >> (7 - (i%8))) & 1) == 1) {
       PORTD &= !(1<<PORT_TX);
       delayMicroseconds(SYMBOL);
