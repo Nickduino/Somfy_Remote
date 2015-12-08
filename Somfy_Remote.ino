@@ -79,7 +79,7 @@ void loop() {
 
     Serial.println("");
     SendCommand(frame, 2);
-    for(int i = 0; i<4; i++) {
+    for(int i = 0; i<2; i++) {
       SendCommand(frame, 7);
     }
   }
