@@ -21,7 +21,7 @@
 #include <EEPROM.h>
 #define PORT_TX 5 //5 of PORTD = DigitalPin 5
 
-#define SYMBOL 640
+#define SYMBOL 604
 #define HAUT 0x2
 #define STOP 0x1
 #define BAS 0x4
