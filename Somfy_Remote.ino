@@ -142,7 +142,7 @@ void BuildFrame(byte *frame, byte button) {
   Serial.print("Rolling Code  : "); Serial.println(code);
   EEPROM.put(EEPROM_ADDRESS, code + 1); //  We store the value of the rolling code in the
                                         // EEPROM. It should take up to 2 adresses but the
-                                        // Arduino function take care of it.
+                                        // Arduino function takes care of it.
 }
 
 void SendCommand(byte *frame, byte sync) {
