@@ -7,7 +7,7 @@ If you want to learn more about the Somfy RTS protocol, check out [Pushtack](htt
 
 
 **How the hardware works:**
-Connect a *433.42 Mhz* RF transmitter to Arduino Pin 5 (or change the pin in the sketch). I couldn't find a 433.*42* MHz transmitter so I hacked a current remote. I also ordered 433.42 MHz crystals to change the regular 433.92 MHz I have on my transmitter. Other option would be to use a tunable transmitter (but that hardly looks like the easy way and I'm not a ham radio, so...).
+Connect a *433.42 Mhz* RF transmitter to Arduino Pin 5 (or change the pin in the sketch). I couldn't find a 433.*42* MHz transmitter so I hacked a remote to send my signals. I then ordered 433.42 MHz crystals to change the regular 433.92 MHz ones I have on my transmitters: that's the cheapest way to do it. Other option would be to use a tunable transmitter (but that hardly looks like the easy way and I'm not a ham radio, so...).
 
 
 **How the software works:**
