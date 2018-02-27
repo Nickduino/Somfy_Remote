@@ -1,4 +1,4 @@
-# Somfy_Remote
+# Somfy Remote
 An Arduino Sketch able to emulate a Somfy remote control.
 
 
