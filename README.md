@@ -18,7 +18,7 @@ What you really want to keep here are the BuildFrame() and SendCommand() procedu
 
 The rolling code value is stored in the EEPROM, so that you don't loose count of your rolling code after a reset.
 
-
-
-
+<br/>
+<br/>
+<br/>
 **If you want more functionality**, check out the [Python version](https://github.com/Nickduino/Pi-Somfy)
